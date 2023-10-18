@@ -4,6 +4,7 @@
     padding: 0;
     /* border: solid 1px red; */
     font-size: 20px;
+    text-align: center;
     }
 
 h1{
@@ -11,7 +12,42 @@ h1{
     font-size: xx-large;
     
 }
-mesRègles{
+.container-regles{
     border: solid 1px red;
     border-radius: 5rem;
+    padding: 20px;
+}
+
+.fenetre-jeu{
+    margin: 10px auto;
+    border: 1px solid violet;
+}
+
+.image-pendu{
+    margin: 10px auto;
+    width: 20%;
+    height: 600px;
+    background-image: url(./images/image-pendu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 1px blue;
+
+}
+
+button {
+    cursor: pointer;
+    margin-right: 1px;
+    padding: 20px;
+    background-color: rgb(13, 117, 117);
+    color: rgb(255, 255, 255)
+}
+button:hover{
+    background-color: rgb(15, 163, 163);
+}
+
+.mots-caches{
+    width: 500px;
+    height: 100px;
+    margin-bottom: 2rem;
+    border: solid 1px red
 }
